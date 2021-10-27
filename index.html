@@ -3,22 +3,66 @@
 
 <head>
 	<title>My amazing food page</title>
-
+	<meta name="viewport"  content="width=device-width, initial scale=1" />
+	<meta name="robots" content="noindex, nofollow" /> 
 	<style>
-		body{
-		font-family:'Courier New'; 	
-		}	
-	</style>
-</head>
+	html{
+		background-color: #ccc;
+	}
+	body{
+	font-family:'Courier New';
+	max-width: 960px;
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding:1%; 	
+	}	
+	
+	footer{
+    text-align:center;
+    clear:both;
+	}
+	
+	nav
+	{
+	text-align:center; /* centers the nav */
+	}
+		
+	nav ul{
+	list-style:none; /* removes the bullets */
+	}
+	nav ul li{
+	display:inline-block; /* makes horizontal, but able to declare margins */
+	margin:0 2%; /* margin left-right, gets smaller as necessary */
+	}
+	nav a:hover{
+		text-decoration: none;
+	}
+		</style>
+	</head>
+	<body>
+	<header>
+		<h1>My amazing food page</h1>
+		<!-- Put nave below here  -->
+		<nav>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+				<li><a href="#">Link 6</a></li>
+			</ul>
+		</nav>
+		
 
-<body>
-	<h1>My amazing food page(in test-branch)</h1>
-=======
-</head>
 
-<body>
-	<h1>My amazing food page</h1>
 
+
+
+
+
+	</header>
 	<p> NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM</p>
 	<p>My favorite food</p>
 	<p>
@@ -70,6 +114,9 @@
 </tr>
 </table>
 
+<footer>
+	&copy; 2021 My Cool Website
+</footer>
 
   </body>
 </html>
